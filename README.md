@@ -1,4 +1,8 @@
-### Steps
+# Helm chart for `ci-workshop-app`
+
+This is the helm chart for https://github.com/ThoughtWorksInc/ci-workshop-app
+
+### Steps to release app on minikube
 ```sh
 # start kubernetes cluster locally
 minikube start
@@ -20,3 +24,8 @@ minikube ip
 # 
 minikube dashboard
 ```
+
+### Resources
+
+- https://docs.bitnami.com/kubernetes/how-to/create-your-first-helm-chart/
+- https://helm.sh/docs/chart_template_guide/
